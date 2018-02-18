@@ -67,9 +67,8 @@
 										</table>
 									</div>
 
-									<h3>Regina's Picks</h3>
+									<h3>Regina's Current Playlist</h3>
 										<iframe src="https://open.spotify.com/embed/user/124495412/playlist/1RGQ6p6UzoPmEd5nz2rZHd" width="900" height="400" frameborder="0" allowtransparency="true" "&theme = white"></iframe> 
-
 									<hr />
 
 								<!-- Buttons -->

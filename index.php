@@ -42,11 +42,35 @@
 							<section class="posts">
 								<article>
 									<header>
-										<span class="date">April 24, 2017</span>
-										<h2><a href="#">Sed magna<br />
-										ipsum faucibus</a></h2>
+										<span class="date">February 14, 2018</span>
+										<h2><a href="#">Blast from the Past:<br />
+										Revisiting 90's R&B</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<a href="#" class="image fit"><img src="images/clouds.png" alt="" /></a>
+									<p>I fell in love with the feel of 90s music again! Nu flavor, Damage, Mariah Carey, the list goes on! I first came across them when I was listening to a throwback video on Facebook.</p>
+									<ul class="actions">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">February 7, 2018</span>
+										<h2><a href="#">Computer Music<br />
+										Music and Technology</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/cassette.jpg" alt="" /></a>
+									<p>Reaper and Max Pad are popular music tools for making music on your very own computer. Over time, music and technology has evolved greatly. Songs like Williams Mix and Bye Bye Butterfly continue to be unparalleled.</p>
+									<ul class="actions">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">February 1, 2018</span>
+										<h2><a href="#">Hip Hop and<br />
+										R&B Fusion</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/clouds2.jpg" alt="" /></a>
 									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
 									<ul class="actions">
 										<li><a href="#" class="button">Full Story</a></li>
@@ -54,35 +78,10 @@
 								</article>
 								<article>
 									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
+										<span class="date">January 21, 2018</span>
+										<h2><a href="#">Mumble Rap</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+									<a href="#" class="image fit"><img src="images/brick.jpg" alt="" /></a>
 									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
 									<ul class="actions">
 										<li><a href="#" class="button">Full Story</a></li>
