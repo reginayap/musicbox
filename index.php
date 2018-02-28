@@ -17,7 +17,12 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
 
+<!--MY CODE CONTRIBUTIONS------------------------------------------------------------------------------------------->
+<!--I have included php code to include another php file------------------------------------------------------------>
+
 				<?php include("header.php");?>
+
+<!--END CODE CONTRIBUTIONS------------------------------------------------------------------------------------------>
 
 				<!-- Main -->
 					<div id="main">
@@ -143,8 +148,7 @@
 							</section>
 							<section>
 								<h3>Email</h3>
-								<p><a href="#">hs4ah@virginia.edu</a></p>
-								<p><a href="#">ry3zg@virginia.edu</a></p>
+								<p>Hiu Hiu: <a href="#">hs4ah@virginia.edu</a><br/>Regina: <a href="#">ry3zg@virginia.edu</a></p>
 							</section>
 							<section>
 								<h3>Social</h3>
