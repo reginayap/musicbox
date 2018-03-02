@@ -30,7 +30,7 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									//<span class="date">February 28, 2018</span>
+									/*<span class="date">February 28, 2018</span>*/
 									<h2><a href="#">Catch These<br />
 									Sweet tunes</a></h2>
 									<p>Midterms got you down? Take a break and listen to our music to relax and rewind.</p>
@@ -45,49 +45,49 @@
 							<section class="posts">
 								<article>
 									<header>
-										//<span class="date">February 14, 2018</span>
+										/*<span class="date">February 14, 2018</span>*/
 										<h2><a href="#">Blast from the Past:<br />
 										Revisiting 90's R&B</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/clouds.png" alt="" /></a>
 									<p>I fell in love with the feel of 90s music again! Nu flavor, Damage, Mariah Carey, the list goes on! I first came across them when I was listening to a throwback video on Facebook.</p>
 									<ul class="actions">
-										//<li><a href="#" class="button">Full Story</a></li>
+										/*<li><a href="#" class="button">Full Story</a></li>*/
 									</ul>
 								</article>
 								<article>
 									<header>
-										//<span class="date">February 7, 2018</span>
+										/*<span class="date">February 7, 2018</span>*/
 										<h2><a href="#">Computer Music<br />
 										Music and Technology</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/cassette.jpg" alt="" /></a>
 									<p>Reaper and Max Pad are popular music tools for making music on your very own computer. Over time, music and technology has evolved greatly. Songs like Williams Mix and Bye Bye Butterfly continue to be unparalleled.</p>
 									<ul class="actions">
-										//<li><a href="#" class="button">Full Story</a></li>
+										/*<li><a href="#" class="button">Full Story</a></li> */
 									</ul>
 								</article>
 								<article>
 									<header>
-										//<span class="date">February 1, 2018</span>
+										/*<span class="date">February 1, 2018</span>*/
 										<h2><a href="#">Hip Hop and<br />
 										R&B Fusion</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/clouds2.jpg" alt="" /></a>
 									<p>Hip Hop. R&B. Hip Hop R&B Fusion = The Best of Both Worlds. The combination of these two genres has produced some of the catchiest tracks of the decade with cool beats mixed with soulful vocals.</p>
 									<ul class="actions">
-										//<li><a href="#" class="button">Full Story</a></li>
+										/*<li><a href="#" class="button">Full Story</a></li>*/
 									</ul>
 								</article>
 								<article>
 									<header>
-										//<span class="date">January 21, 2018</span>
+										/*<span class="date">January 21, 2018</span>*/
 										<h2><a href="#">Mumble Rap</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/brick.jpg" alt="" /></a>
 									<p>Mumble rap is a subgenre of trap music, and got its name due to its perceived lyrical incomprehensibility. Because lyrics are overrated anyways right? </p>
 									<ul class="actions">
-										//<li><a href="#" class="button">Full Story</a></li>
+										/*<li><a href="#" class="button">Full Story</a></li>*/
 									</ul>
 								</article>
 							</section>
