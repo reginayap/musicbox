@@ -33,7 +33,11 @@
 								</header>
 								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
 								<p>One of my favorite groups of all time is The Civil Wars. They were an indie-folk, Americana duo that created such amazing music. Their first album that I purchased was "Barton Hollow", which featured heavy, gospel-inspired pieces, that catapulted them to mainstream success and recognition at the Grammys. After the release of this debut album, the duo went into hiatus, only to announce two years later that their current album, "The Civil Wars", would be their last. As bitter sweet as it was for me, purchasing their second album on my birthday in 2012 was one of the best moments of listening I ever experienced. </p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
+                                <header>
+                                    <h3>Heading with a Subtitle</h3>
+                                        <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+                                    </header>
+                                        <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 							</section>
 
 					</div>
