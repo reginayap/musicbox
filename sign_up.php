@@ -31,18 +31,19 @@
 				<header align="center"><h1>Sign Up<h2></header>
 			</article>
 			
-			<div class = "row">
-				<article class="6u 12u(mobile) special">
-					<a href="#"><img src="images/donuts.jpg" width="70%" height= "50%" alt="" /></a>
+			<div align="center">
+				<article class="6u 12u(mobile) special" align="center">
+					<a href="#"><img src="images/donuts.jpg" width="80%" height= "50%" alt="" /></a>
 				</article>
+			</div>
+			
+			<div class = "row 50%">
+					<div>
+						<article>
 
-				<div>
-					<article>
+						</br>
+						</br>
 					
-					</br>
-					</br>
-					</br>
-					</br>
 						<form method="post" action="#">
 							<div class="field row 50%">
 								<div class="6u 12u(mobile)">
@@ -99,7 +100,7 @@
 									<label for="city" align="left">City<font color="red">*</font></label>
 									<input type="text" name="contact_city" id="contact_city" placeholder="City" pattern="^[a-zA-Z]+(?:[\s-][a-zA-Z]+)*$"required>
 								</div>
-								
+								</br>
 								<div class="12u">
 									<label for="state" align="left">State<font color="red">*</font></label>
 										<select name="contact_state" required>
@@ -178,9 +179,9 @@
 							</div>
 						</div>
 						
-				</form>
-			</article>
-		</div>
+					</form>
+				</article>
+			</div>
 		
 			</div>
 
