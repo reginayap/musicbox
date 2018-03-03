@@ -25,13 +25,13 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">April 25, 2017</span>
+									<span class="date">March 2nd, 2018</span>
 									<h1>Hi! Welcome To Hiu Hiu's'Page!</h1>
 									<p> My name is Hiu Hiu, and I'm 'a third year Computer Science and Music Double Major. <br />
                                         Born and raised in Hong Kong, I am a city girl at heart, but I have learnt to love the beauty around Charlottesville. <br />
                                         Wanna know what motivates me? Fuels me? Fulfills me? Keep scrolling!</p>
 								</header>
-								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
+								<div class="image main"><img src="images/hiu.png" alt="" /></div>
 								<p>One of my favorite groups of all time is The Civil Wars. They were an indie-folk, Americana duo that created such amazing music. Their first album that I purchased was "Barton Hollow", which featured heavy, gospel-inspired pieces, that catapulted them to mainstream success and recognition at the Grammys. After the release of this debut album, the duo went into hiatus, only to announce two years later that their current album, "The Civil Wars", would be their last. As bitter sweet as it was for me, purchasing their second album on my birthday in 2012 was one of the best moments of listening I ever experienced. </p>
                                 <header>
                                     <h3>Heading with a Subtitle</h3>
