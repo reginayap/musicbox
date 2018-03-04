@@ -1,3 +1,8 @@
+links {
+    font-size: 14px;
+}
+
+
 <!-- Intro -->
 	<div id="intro">
 		<h1>Welcome to<br />

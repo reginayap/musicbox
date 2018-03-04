@@ -1,3 +1,7 @@
+footer {
+    font-size: 14px;
+}
+
 <footer id="footer">
 						<section>
 							<form method="post" action="#">
