@@ -40,7 +40,7 @@
 
 									<h3>Hiu Hiu's Picks</h3>
 									<div class="table-wrapper">
-										<table>
+										<table id="hiutable">
 											<thead>
 												<tr>
 													<th>Artist</th>
@@ -52,17 +52,17 @@
 												<tr>
 													<td>Lana Del Rey</td>
 													<td>Ultraviolence</td>
-													<td><a href="#" class="button icon fa-download" onclick="addRow()">Save to my Collection</a></td>
+													<td><button  onclick="addRow()" class="button icon fa-download">Save to my Collection</button></td>
 												</tr>
 												<tr>
 													<td>Hozier</td>
 													<td>Take Me To Church</td>
-													<td><a href="#" class="button icon fa-download" onclick="addRow()">Save to my Collection</a></td>
+													<td><button  onclick="addRow()" class="button icon fa-download">Save to my Collection</button></td>
 												</tr>
 												<tr>
 													<td>Jaymes Young</td>
 													<td>Habits of My Heart</td>
-													<td><a href="#" class="button icon fa-download" onclick="addRow()">Save to my Collection</a></td>
+													<td><button  onclick="addRow()" class="button icon fa-download">Save to my Collection</button></td>
 												</tr>
 											</tbody>
 										</table>
@@ -83,20 +83,22 @@
 												<th>Artist</th>
 												<th>Song</th>
 												<th>Date Added</th>
-												<th>(Remove)</th>
+												<th>Remove</th>
 											  </tr> 
 											</thead>
 											
 										  </table> 
 										</div>
-									  </div> 
+										
+										<br/>
+										<br/>
 									
 								<!-- Buttons -->
 									<h2>Actions</h2>
 
 									<ul class="actions">
 										<li><a href="#" class="button special icon fa-search">Search for a Track</a></li>
-										<li><a href="#" class="button icon fa-download">Save Whole Collection</a></li>
+										<li><a href="#" class="button icon fa-download">Save Entire Collection</a></li>
 									</ul>
 
 							</section>
@@ -118,10 +120,9 @@
 			
 			<script>
 				function addRow(){
-
-				   //Table data
-				   var rowdata = [artist, song, removeoption];
 			 
+				   //Table to extract data from 
+				   var tableHiu = document.getElementById("hiutable");
 				   //Target table to put data in
 				   var tableRef = document.getElementById("socoTable");
 			 
@@ -133,15 +134,14 @@
 				   newRow.onmouseover = function() { tableRef.clickedRowIndex = this.rowIndex; };
 				  
 				   var newCell = "";       
-				   var i = 0;
-	  
-				   while (i < 3)
-				   {
-					  newCell = newRow.insertCell(i);
-					  newCell.innerHTML = rowdata[i];
+				   
+					  newCell = newRow.insertCell(0);
+					  newCell.innerHTML = document.getElementById("myTable").rows[tableHiu.clickedRowIndex].cells[0].innerHTML;
 					  newCell.onmouseover = this.rowIndex;
-					  i++;
-				   }
+					  
+					  newCell = newRow.insertCell(1);
+					  newCell.innerHTML = document.getElementById("myTable").rows[tableHiu.clickedRowIndex].cells[1].innerHTML;
+					  newCell.onmouseover = this.rowIndex;
 				}
 		
 				function delRow()
