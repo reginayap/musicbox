@@ -1,7 +1,3 @@
-links {
-    font-size: 14px;
-}
-
 
 <!-- Intro -->
 	<div id="intro">
