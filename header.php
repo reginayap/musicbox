@@ -1,3 +1,7 @@
+#nav {
+font-size: 14 px;
+}
+
 
 <!-- Intro -->
 	<div id="intro">

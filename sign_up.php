@@ -87,11 +87,14 @@
 									number and one uppercase and lowercase letter, and at least 8 or more characters" required>
 								</div>
 							</div>
-							<div class="field">
-								<input type="checkbox" id="showPwd">Show password</input>
-							</div>
+
+
+                            <!----    <div class="field"> --->
+								<!--- <input type="checkbox" id="showPwd">Show password</input> --->
+							 <!--- </div> --->
 							<br/>
-							
+
+
 							<!--Passwords-->
 							<div class="field">
 								<div class="12u">
