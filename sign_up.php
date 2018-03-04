@@ -13,8 +13,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+				<!--Automatically focusing on textbox-->
+		<script type="text/javascript">
+			function pageAutoFocus(){
+				document.getElementById("contact_name").focus();
+			}
+		</script>
 	</head>
-	<body class="is-loading">
+	<body onload="pageAutoFocus();" class="is-loading">
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
@@ -44,10 +50,13 @@
 						</br>
 						</br>
 					
+						<!--User Sign Up Form-->
 						<form method="post" action="#">
+						
+						<!--Names-->
 							<div class="field row 50%">
 								<div class="6u 12u(mobile)">
-									<label for="name" align="left">First Name<font color="red">*</font></label>
+									<label for="fname" align="left">First Name<font color="red">*</font></label>
 									<input type="text" pattern="^[a-zA-Z-]{3,}$" name="contact_name" id="contact_name" placeholder="First Name" title="First name must be at least 3 characters and may not have any special characters except '-'" required>
 								</div>
 								<div class="6u 12u(mobile)">
@@ -55,6 +64,8 @@
 									<input type="text"  pattern="^[a-zA-Z-]{3,}$" name="contact_lname" id="contact_lname" placeholder="Last Name" title="Last name must be at least 3 characters and may not have any special characters except '-'" required>
 								</div>
 							</div>
+							
+							<!--Email, with RegEx validations-->
 							<div class="field">
 								<div class="12u">
 									<label for="lname" align="left">Email<font color="red">*</font></label>
@@ -66,6 +77,8 @@
 								<?php endif ?>
 								</div>
 							</div>
+							
+							<!--Passwords-->
 							<div class="field">
 								<div class="12u">
 									<label for="password" align="left">Password<font color="red">*</font></label>
@@ -74,33 +87,40 @@
 									number and one uppercase and lowercase letter, and at least 8 or more characters" required>
 								</div>
 							</div>
-							<div align="left">
-								<input type="checkbox" id="showPwd"> Show password 
+							<div class="field">
+								<input type="checkbox" id="showPwd">Show password</input>
 							</div>
 							<br/>
+							
+							<!--Passwords-->
 							<div class="field">
 								<div class="12u">
 									<label for="password2" align="left">Comfirm Password<font color="red">*</font></label>
 									<input type="password" name="contact_password2" id="contact_password2" onchange="validatePassword()" placeholder="Confirm Password" required>
 								</div>
 							</div>
-							<div align="left">
-								<input type="checkbox" id="showPwd2"> Show password 
+							<div class="field">
+								<input type="checkbox" id="showPwd2">Show password 
 							</div>
 							<br/>
+							
+							<!--Address-->
 							<div class="field">
 								<div class="12u">
 									<label for="address" align="left">Address<font color="red">*</font></label>
 									<input type="text" name="contact_address" id="contact_address" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*(_|[^\w])).+$" placeholder="Address"required>
 								</div>
 							</div>
-
+				
+							<!--City, State-->
 							<div class="field 50%">
 								<div class="12u">
 									<label for="city" align="left">City<font color="red">*</font></label>
 									<input type="text" name="contact_city" id="contact_city" placeholder="City" pattern="^[a-zA-Z]+(?:[\s-][a-zA-Z]+)*$"required>
 								</div>
 								</br>
+								
+								<!--Dropdown menu for state-->
 								<div class="12u">
 									<label for="state" align="left">State<font color="red">*</font></label>
 										<select name="contact_state" required>
@@ -160,16 +180,15 @@
 										</select>
 									</div>	
 							</div>
-
+						<!--Zipcode-->
 							<div class="field">
 								<div class="12u">
 									<label for="zipcode" align="left">Zipcode<font color="red">*</font></label>
 									<input type="text" name="contact_zipcode" id="contact_zipcode" placeholder="xxxxx" title="Please enter 5 digits of zipcode." pattern="^\d{5}(?:[-\s]\d{4})?$"required>
 								</div>
 							</div>
-
-
-
+							
+						<!--Sign Up, Reset Buttons-->
 						<div class="field">
 							<div class="12u">
 								<ul class="actions">
@@ -186,7 +205,9 @@
 			</div>
 
 		</section>
+		
 		<!-- Footer -->
+			
 			<div id="footer-wrapper" class="wrapper">
 				<?php include("footer.php");?>
 			</div>
@@ -200,56 +221,63 @@
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-
-			<script>
-				var password = document.getElementById("contact_password")
-				  , confirm_password = document.getElementById("contact_password2");
-				function validatePassword(){
-				  if(password.value != confirm_password.value) {
-					confirm_password.setCustomValidity("Passwords Do Not Match");
-				  } else {
-					  confirm_password.setCustomValidity('');
-				  }
-				}
-			</script>
-			
+		
+		<!--Checking to see if passwords match-->
+		<script>
+			var password = document.getElementById("contact_password")
+			  , confirm_password = document.getElementById("contact_password2");
+			function validatePassword(){
+			  if(password.value != confirm_password.value) {
+				confirm_password.setCustomValidity("Passwords Do Not Match");
+			  } else {
+				  confirm_password.setCustomValidity('');
+			  }
+			}
+		</script>
+		
+		<!--Checkbox for user to see their password in text form-->
 		<script>
 
-			(function() {
-			var pwd = document.getElementById("contact_password");
-			var show = document.getElementById("showPwd");
+			(function() 
+			{
+				var pwd = document.getElementById("contact_password");
+				var show = document.getElementById("showPwd");
 
-			show.addEventListener("change", function() {
-			 try {
-				if (show.checked)
-				   pwd.type ="text";
-				else
-				   pwd.type = "password";
-			 } catch(error) {
-				alert("Cannot switch type");
-			 }         
-			}, false);      
+				show.addEventListener("change", function() {
+					try {
+					if (show.checked)
+						pwd.type ="text";
+					else
+						pwd.type = "password";
+					} catch(error) {
+						alert("Cannot switch type");
+					}			         
+				}, false);      
 			}());
 
 		</script>
+		
+		<!--Checkbox for user to see their password in text form-->
 		<script>
 			(function() {
-			var pwd = document.getElementById("contact_password2");
-			var show = document.getElementById("showPwd2");
+				var pwd = document.getElementById("contact_password2");
+				var show = document.getElementById("showPwd2");
 
-			show.addEventListener("change", function() {
-			 try {
-				if (show.checked)
-				   pwd.type ="text";
-				else
-				   pwd.type = "password";
-			 } catch(error) {
-				alert("Cannot switch type");
-			 }         
-			}, false);      
+				show.addEventListener("change", function() {
+				
+					try {
+						if (show.checked)
+							pwd.type ="text";
+						else
+							pwd.type = "password";
+					} catch(error) {
+						alert("Cannot switch type");
+					}	         
+				}, false);      
 			}());
-
 		</script>
+		
+		<!--Alert to check if email is already taken...this code is still under construction-->
 		<script type="text/javascript">
 			function the_function(){
 					$.ajax({

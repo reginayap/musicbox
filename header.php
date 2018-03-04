@@ -10,7 +10,7 @@
 
 <!-- Header -->
 	<header id="header">
-		<a href="index.html" class="logo">Music Box</a>
+		<a href="index.php" class="logo">Music Box</a>
 	</header>
 
 <!-- Nav -->

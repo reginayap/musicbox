@@ -25,19 +25,24 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">March 3rd, 2018</span>
-									<h1>Come on in! This is Regina's Page!</h1>
-									<p> My name is Hiu Hiu, and I'm 'a third year Computer Science and Music Double Major. <br />
-                                        Born and raised in Hong Kong, I am a city girl at heart, but I have learnt to love the beauty around Charlottesville. <br />
-                                        Wanna know what motivates me? Fuels me? Fulfills me? Keep scrolling!</p>
+									<span class="date">March 2nd, 2018</span>
+									<h1>Come on in! Welcome to Regina's Humble Music Abode.</h1>
+									
+									<p>Hello, I am Regina, a Computer Science and Cognitive Science Double Major at the University of Virginia. <br />
+                                        I love to work out and spend time outside, but I definitely enjoy spending a day in to relax, watch videos, and listen to music.</p>
 								</header>
-								<div class="image main"><img src="images/regina.jpg" alt="" /></div>
-								<p>One of my favorite groups of all time is The Civil Wars. They were an indie-folk, Americana duo that created such amazing music. Their first album that I purchased was "Barton Hollow", which featured heavy, gospel-inspired pieces, that catapulted them to mainstream success and recognition at the Grammys. After the release of this debut album, the duo went into hiatus, only to announce two years later that their current album, "The Civil Wars", would be their last. As bitter sweet as it was for me, purchasing their second album on my birthday in 2012 was one of the best moments of listening I ever experienced. </p>
+								
+								<div align="center">
+									<article>
+										<img src="images/regina.jpg" width="50%" height="50%" alt="" />
+									</article>
+								</div>
+								
+								</br>
                                 <header>
-                                    <h3>Heading with a Subtitle</h3>
-                                        <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-                                    </header>
-                                        <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+                                    <h3>My Music Tastes</h3>
+                                </header>
+                                        <p>My music preferences have definitely come along the way! In middle school, I loved alternative music like The Cab. Going into college, I started getting more into hip hop, which was different, but fun. Today, I really enjoy a blend of hip hop and R&B! Artists that I appreciate are Daniel Caesar, dvsn, and Xavier Omar. Having previously taken two music classes at Uva, I learned a lot about the effort, technologies, and techniques of what went into the music I listen to, and I appreciate music and composition so much more now!</p>
 							</section>
 
 					</div>
