@@ -89,11 +89,11 @@
 							</div>
 
 
-                            <!----    <div class="field"> --->
-								<!--- <input type="checkbox" id="showPwd">Show password</input> --->
-							 <!--- </div> --->
-							<br/>
-
+                            <!--
+                            <div class="field">
+							<input type="checkbox" id="showPwd">Show password</input>
+							</div> <br/>
+                            -->
 
 							<!--Passwords-->
 							<div class="field">
@@ -102,10 +102,13 @@
 									<input type="password" name="contact_password2" id="contact_password2" onchange="validatePassword()" placeholder="Confirm Password" required>
 								</div>
 							</div>
+
+                            <!--
 							<div class="field">
 								<input type="checkbox" id="showPwd2">Show password 
 							</div>
 							<br/>
+                             -->
 							
 							<!--Address-->
 							<div class="field">

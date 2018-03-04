@@ -1,7 +1,10 @@
+<style>
+
 #nav {
 font-size: 14 px;
 }
 
+</style>
 
 <!-- Intro -->
 	<div id="intro">
