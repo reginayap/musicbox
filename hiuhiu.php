@@ -25,7 +25,6 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">March 2nd, 2018</span>
 									<h1>Hi! Welcome To Hiu Hiu's' Page!</h1>
 									
 									<p> My name is Hiu Hiu, and I'm 'a third year Computer Science and Music Double Major. <br />

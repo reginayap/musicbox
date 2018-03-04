@@ -26,8 +26,7 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<h1>Our<br />
-									Music</h1>
+									<h1>Our Music</h1>
 								</header>
 
 								<!-- Text stuff -->

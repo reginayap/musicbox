@@ -25,7 +25,6 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">March 2nd, 2018</span>
 									<h1>Come on in! Welcome to Regina's Humble Music Abode.</h1>
 									
 									<p>Hello, I am Regina, a Computer Science and Cognitive Science Double Major at the University of Virginia. <br />

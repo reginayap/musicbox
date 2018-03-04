@@ -1,3 +1,11 @@
+<style>
+
+#footer {
+    font-size: 14 px;
+}
+
+</style>
+
 
 <footer id="footer">
 						<section>
