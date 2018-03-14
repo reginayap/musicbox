@@ -87,11 +87,22 @@
 									number and one uppercase and lowercase letter, and at least 8 or more characters" required>
 								</div>
 							</div>
+<<<<<<< HEAD
 							<div class="field">
 								<input type="checkbox" id="showPwd" value="Yes">Show password
 							</div>
 							<br/>
 							
+=======
+
+
+                            <!--
+                            <div class="field">
+							<input type="checkbox" id="showPwd">Show password</input>
+							</div> <br/>
+                            -->
+
+>>>>>>> 31b50cf210b12f47dc5db3df9fe260b5ff8796a9
 							<!--Passwords-->
 							<div class="field">
 								<div class="12u">
@@ -99,10 +110,13 @@
 									<input type="password" name="contact_password2" id="contact_password2" onchange="validatePassword()" placeholder="Confirm Password" required>
 								</div>
 							</div>
+
+                            <!--
 							<div class="field">
 								<input type="checkbox" id="showPwd2">Show password 
 							</div>
 							<br/>
+                             -->
 							
 							<!--Address-->
 							<div class="field">
