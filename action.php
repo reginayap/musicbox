@@ -23,7 +23,7 @@
 				<!-- Main -->
 					<div id="main">
 
-						<section>
+						<section align="center">
 							<?php
 							echo "Hi";
 							echo "Hi!";
