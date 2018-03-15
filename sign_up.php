@@ -291,7 +291,8 @@
 			}());
 		</script>
 		
-		<!--Alert to check if email is already taken...this code is still under construction-->
+        <!--
+        <!--Alert to check if email is already taken...this code is still under construction-->
 		<script type="text/javascript">
 			function the_function(){
 					$.ajax({
@@ -305,6 +306,7 @@
 					}
 				)};
 		</script>
+        -->
 
 <!--END CODE CONTRIBUTIONS------------------------------------------------------------------------------------------>
 

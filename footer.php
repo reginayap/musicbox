@@ -9,7 +9,7 @@
 
 <footer id="footer">
 						<section>
-							<form method="post" action="#">
+							<form method="post" action="action.php">
 								<div class="field">
 									<label for="name">Name</label>
 									<input type="text" name="name" id="name" />
