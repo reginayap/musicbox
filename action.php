@@ -78,8 +78,9 @@ font-size: 14 px;
 	   echo "<br>";
 	   echo "Thanks for taking your time to look through Music Box, and for sending us a message! ";
 	   echo "<br>";
-	   echo "We will get to your message soon and send you a reply back to ";
+	   echo "We will get to your message soon and send a reply back to ";
 	   echo strtolower($_POST['email']);
+	   echo ".";
 	   ?>
       </p> 
      </header>

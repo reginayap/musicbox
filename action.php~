@@ -70,7 +70,7 @@ font-size: 14 px;
       <h3>Your message has been sent successfully.</h3>
 
       <!-- Post -->
-      <p style="color:black;font-size:16px;">
+      <p style="color:black;font-size:16px;line-height:1.6">
 	<?php
 	   echo "Hi ";
 	   echo ($_POST['name']);
