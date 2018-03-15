@@ -291,22 +291,22 @@
 			}());
 		</script>
 		
-        <!--
-        <!--Alert to check if email is already taken...this code is still under construction-->
-		<script type="text/javascript">
-			function the_function(){
-					$.ajax({
-						type: 'POST',
-						url: 'server.php',
-						success: function(checkemail) {
-							alert("This email is already registered.");
-							$("p").text(checkemail);
 
-						}
-					}
-				)};
-		</script>
-        -->
+        <!--Alert to check if email is already taken...this code is still under construction-->
+		<!--<script type="text/javascript">-->
+			<!--function the_function(){-->
+					<!--$.ajax({-->
+						<!--type: 'POST',-->
+						<!--url: 'server.php',-->
+						<!--success: function(checkemail) {-->
+							<!--alert("This email is already registered.");-->
+							<!--$("p").text(checkemail);-->
+
+						<!--}-->
+					<!--}-->
+				<!--)};-->
+		<!--</script>-->
+
 
 <!--END CODE CONTRIBUTIONS------------------------------------------------------------------------------------------>
 
