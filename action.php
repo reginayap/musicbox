@@ -1,13 +1,11 @@
 <!DOCTYPE HTML>
 <!--
-<<<<<<< HEAD
     Massively by HTML5 UP
     html5up.net | @ajlkn
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
   <head>
-    // this is my first comment to regina! 
     <title>Music Box</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -62,69 +60,108 @@ font-size: 14 px;
     </ul>
   </nav>
 
+<!-- Main -->
+<div id="main">
 
-<!-- Body -->
-<body>
-<?php
-    echo "Hi!";
-    echo ($_POST['name']);
-    echo "Thanks for taking your time to look through Music Box, and for sending us a message! ";
-    echo "We will get to your message soon and send you a reply at ";
-    echo strtolower($_POST['email']);
-    ?>
-    
+  <!-- Post -->
+  <section class="post">
+    <header class="major">
+      <h3>Your message has been sent successfully.</h3>
+
+      <!-- Post -->
+      <p>
+	<?php
+	   echo "Hi ";
+	   echo ($_POST['name']);
+	   echo "!";
+	   echo "<br>";
+	   echo "Thanks for taking your time to look through Music Box, and for sending us a message! ";
+	   echo "<br>"
+	   echo "We will get to your message soon and send you a reply at ";
+	   echo strtolower($_POST['email']);
+	   ?>
+      </p> 
+     </header>
+    </br>
+  </section>
+</div>
+
+<!-- Footer -->
+<style>
+
+#footer {
+    font-size: 16 px;
+}
+
+</style>
+
+
+<footer id="footer">
+  <section>
+    <form method="post" action="action.php">
+      <div class="field">
+	<label for="name">Name</label>
+	<input type="text" name="name" id="name" />
+	</div>
+      <div class="field">
+	<label for="email">Email</label>
+	<input type="text" name="email" id="email" />
+	</div>
+      <div class="field">
+	<label for="message">Message</label>
+	<textarea name="message" id="message" rows="3"></textarea>
+	</div>
+      <ul class="actions">
+	<li><input type="submit" value="Send Message" /></li>
+	</ul>
+      </form>
+    </section>
+  <section class="split contact">
+    <section class="alt">
+      <h3>Address</h3>
+      <p>
+	University of Virginia<br />
+	P.O. Box 400133<br />
+	103 Monroe Hall - 248 McCormick Road<br />
+	Charlottesville, VA 22904<br />
+	</p>
+      </section>
+    <section>
+      <h3>Phone</h3>
+      <p>
+	(434) 101- 0011
+	</p>
+      </section>
+    <section>
+      <h3>Email</h3>
+      <p>Hiu Hiu: <a href="#">hs4ah@virginia.edu</a><br/>Regina: <a href="#">ry3zg@virginia.edu</a></p>
+      </section>
+    <section>
+      <h3>Social</h3>
+      <ul class="icons alt">
+	<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+	<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+	<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+	<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+	</ul>
+      </section>
+    </section>
+  </footer>
+
+<!-- Copyright -->
+<div id="copyright">
+  <ul><li>Musicbox</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+  </div>
+
+</div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
     </body>
-=======
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-    // this is my first comment to regina! 
-		<title>Music Box</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-loading">
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<?php include("header.php");?>
-
-				<!-- Main -->
-					<div id="main">
-
-						<section align="center">
-							<?php
-							echo "Hi";
-							echo "Hi!";
-							echo ($_POST['name']);
-							echo "Thanks for taking your time to look through Music Box, and for sending us a message! ";
-							echo "We will get to your message soon and send you a reply at ";
-							echo strtolower($_POST['email']);
-							?>
-						</section>
-					</div>
-
-				<!-- Footer -->
-					<?php include("footer.php");?>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
->>>>>>> d698353aa800250158a53a422018b0af79ff26c0
 </html>
-
-
