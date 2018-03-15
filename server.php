@@ -53,7 +53,7 @@
 
 			//  if the name exists it gives an error 
 			if ($check2 != 0) { 
-			die('Sorry, the email '.$_POST['contact_email'].' is already in use.'); 
+				die('Sorry, the email '.$_POST['contact_email'].' is already in use.'); 
 			}
 	   }
 	  
