@@ -66,14 +66,17 @@ font-size: 14 px;
   <!-- Post -->
   <section class="post">
     <header class="major">
-      <h4>Your message has been sent successfully.</h4>
+      <h3>Your message has been sent successfully.</h3>
 
       <!-- Post -->
       <p>
 	<?php
-	   echo "Hi!";
+	   echo "Hi ";
 	   echo ($_POST['name']);
+	   echo "!";
+	   echo "<br>";
 	   echo "Thanks for taking your time to look through Music Box, and for sending us a message! ";
+	   echo "<br>";
 	   echo "We will get to your message soon and send you a reply at ";
 	   echo strtolower($_POST['email']);
 	   ?>
