@@ -51,7 +51,7 @@
 						</br>
 					
 						<!--User Sign Up Form-->
-						<form method="post" action="#">
+						<form method="post" action="signupaction.php">
 						
 						<!--Names-->
 							<div class="field row 50%">
@@ -87,13 +87,10 @@
 									number and one uppercase and lowercase letter, and at least 8 or more characters" required>
 								</div>
 							</div>
-<<<<<<< HEAD
 							<div class="field">
 								<input type="checkbox" id="showPwd" value="Yes">Show password
 							</div>
 							<br/>
-							
-=======
 
 
                             <!--
@@ -101,8 +98,6 @@
 							<input type="checkbox" id="showPwd">Show password</input>
 							</div> <br/>
                             -->
-
->>>>>>> 31b50cf210b12f47dc5db3df9fe260b5ff8796a9
 							<!--Passwords-->
 							<div class="field">
 								<div class="12u">
