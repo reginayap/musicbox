@@ -14,7 +14,7 @@ public class Hello extends HttpServlet
    {
       res.setContentType ("text/html");
       PrintWriter out = res.getWriter ();
-         
+      
       out.println("<html>");
       out.println("   <head>");
       out.println("      <title>Servlet example</title>");
@@ -25,4 +25,22 @@ public class Hello extends HttpServlet
       out.println("</html>");
       out.close();
    }
+
+/**
+ * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+ */
+   protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+	   res.setContentType ("text/html");
+	   PrintWriter out = res.getWriter ();
+	   
+	   String name = req.getParameter("name");   	 	 
+	   printConfirmation(name, out);
+	   doGet(req, res);       // submit more comment?
+	   out.close();
+	   }
+	      
+private void printConfirmation(String name, PrintWriter out) {
+   out.println("Thanks " + name + "! <br/>");
+	}
 }
+
