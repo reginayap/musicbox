@@ -20,7 +20,7 @@ public class Hello extends HttpServlet
       out.println("      <title>Servlet example</title>");
       out.println("   </head>");
       out.println("   <body>");
-      out.println("       <p>My first servlet<g;/p>");
+      out.println("       <p>Welcome to Music Box! <g;/p>");
       out.println("   </body>");
       out.println("</html>");
       out.close();
