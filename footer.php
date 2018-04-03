@@ -9,7 +9,7 @@
 
 <footer id="footer">
 						<section>
-							<form method="post" action=http://localhost:8080/musicbox/Assignment5/src/Hello.java>
+							<form method="post" action="http://localhost:8080/Assignment5/Hello">
 								<div class="field">
 									<label for="name">Name</label>
 									<input type="text" name="name" id="name" />
