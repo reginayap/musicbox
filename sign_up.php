@@ -86,18 +86,14 @@
 									pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one
 									number and one uppercase and lowercase letter, and at least 8 or more characters" required>
 								</div>
+							
 							</div>
 							<div class="field">
 								<input type="checkbox" id="showPwd" value="Yes">Show password
 							</div>
 							<br/>
 
-
-                            <!--
-                            <div class="field">
-							<input type="checkbox" id="showPwd">Show password</input>
-							</div> <br/>
-                            -->
+							
 							<!--Passwords-->
 							<div class="field">
 								<div class="12u">
@@ -106,12 +102,12 @@
 								</div>
 							</div>
 
-                            <!--
+                          
 							<div class="field">
 								<input type="checkbox" id="showPwd2">Show password 
 							</div>
 							<br/>
-                             -->
+                            
 							
 							<!--Address-->
 							<div class="field">
