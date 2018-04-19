@@ -17,7 +17,7 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-<jsp:include page="header.jsp"></jsp:include>
+<%@include file="header.jsp"%>
 
 				<!-- Main -->
 					<div id="main">
@@ -119,7 +119,7 @@
 					</div>
 
 				<!-- Footer -->
-					<jsp:include page="footer.jsp"></jsp:include>
+					<%@include file="footer.jsp"%>
 
 			</div>
 
