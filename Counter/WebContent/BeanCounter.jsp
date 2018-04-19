@@ -1,4 +1,3 @@
-//File: BeanCounter.jsp
 <HTML>
 <HEAD>
 </HEAD>
@@ -10,13 +9,12 @@
 <jsp:setProperty name="counter" property="count" param="count" />
 <%
 
-out.println("Count from scriptlet code : "
-+ counter.getCount() + "<BR>");
+    out.println("Count from scriptlet code : " + counter.getCount() + "<BR>");
 
 %>
 
 Count from jsp:getProperty :
-<jsp:getProperty name="counter" property="count" /><BR>
+  <jsp:getProperty name="counter" property="count" /><BR>
 
 </BODY>
 </HTML>
