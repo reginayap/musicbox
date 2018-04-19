@@ -31,7 +31,7 @@
 
 <!--I have included php code to include another php file------------------------------------------------------------>
 
-		<%@include file="header.jsp"%>
+		<jsp:include page="header.jsp"></jsp:include>
 
 		<div id="main">
 		
@@ -70,7 +70,7 @@
 		<!-- Footer -->
 			
 			<div id="footer-wrapper" class="wrapper">
-				<%@include file="footer.jsp"%>
+				<jsp:include page="footer.jsp"></jsp:include>
 			</div>
 
 	<!--</div>-->
