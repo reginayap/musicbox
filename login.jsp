@@ -20,10 +20,9 @@
 			}
 		</script>
 	</head>
-	<body onload="pageAutoFocus();" class="is-loading">
-	
-		<%@ page language="java"%>
-		<%@ page import="java.util.Date"%>
+	<body onload="pageAutoFocus();" class="is-loading"> 
+		
+		
 		
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
@@ -43,17 +42,8 @@
 		<div align="center">
 			<a href="#"><img src="images/hearts.jpg" alt="" /></a>
 		</div>
-		<%-- date.jsp --%>
-<%-- Displays the current date and time --%>
-
-<%@ page import = "java.util.Date"%>
-
-<html>
-<BODY>    
-
-<CENTER>
- The current time is <%= new Date() %>
-</CENTER>
+		
+<jsp:include page="date.jsp"></jsp:include>
 		<form method="post" action="localhost:8080/assignment5">
 					
 					<div class="12u">
