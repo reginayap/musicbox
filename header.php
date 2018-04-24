@@ -28,7 +28,7 @@ font-size: 14 px;
 			<li><a href="hiuhiu.php">Hiu Hiu's Tunes</a></li>
 			<li><a href="regina.php">Regina's Tunes</a></li>
 			<li><a href="our_music.php">Our Music</a></li>
-			<li><a href="our_music.php">Reflections</a></li>
+			<li><a href="page_counter.php">Page Counter</a></li>
 			<li><a href="sign_up.php">Sign Up</a></li>
 			<!--<li><a href="elements.html">Elements Reference</a></li>-->
 		</ul>

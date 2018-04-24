@@ -9,12 +9,9 @@
 <jsp:setProperty name="counter" property="count" param="count" />
 <%
 
-    out.println("Count from scriptlet code : " + counter.getCount() + "<BR>");
+    out.println("Current Music Box Page Count Is : " + counter.getCount() + "<BR>");
 
 %>
-
-Count from jsp:getProperty :
-  <jsp:getProperty name="counter" property="count" /><BR>
 
 </body>
 </html>

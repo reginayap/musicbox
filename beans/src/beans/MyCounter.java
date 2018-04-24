@@ -9,7 +9,9 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Servlet implementation class MyCounter
- */
+ * http://localhost:8080/beans/BeanCounter.jsp
+ Count from jsp:getProperty :
+  <jsp:getProperty name="counter" property="count" /><BR>*/
 @WebServlet("/MyCounter")
 public class MyCounter extends HttpServlet {
 	private static final long serialVersionUID = 1L;
