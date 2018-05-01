@@ -10,6 +10,7 @@
 <%
 
     out.println("Current Music Box Page Count Is : " + counter.getCount() + "<BR>");
+	out.println ("Click your browser back button to return to Music Box");
 
 %>
 

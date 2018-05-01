@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <title>Example: Ajax</title>
+            <script type="text/javascript" src="welcome-post.js"></script>
+            <script>
+                function setFocus()
+                {
+                    document.nameForm.txt1.focus();
+                }
+            </script>
+    </head>
+    
+    <body onload="setFocus()">
+        
+        <h2>Simple Ajax example</h2>
+        <form name="nameForm" method="post">
+            First Name: <input type="text" name="txt1" id="txt1" onkeyup="showHint(this.value)" />
+        </form>
+        <p><span id="txtHint"></span></p>
+        
+    </body>
+</html>
